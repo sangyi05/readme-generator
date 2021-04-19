@@ -58,7 +58,7 @@ function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, err => {
         if (err) throw err;
         
-        console.log('Sucess!');
+        console.log('Success!');
     });
 }
 
